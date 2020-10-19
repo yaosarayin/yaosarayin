@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
-import Layout from "../layout";
+import Layout from "../components/Layout/Layout";
 import UserInfo from "../components/UserInfo/UserInfo";
 import Disqus from "../components/Disqus/Disqus";
 import PostTags from "../components/PostTags/PostTags";
@@ -24,7 +24,7 @@ export default class PostTemplate extends React.Component {
 
     return (
       <Layout>
-        <div>
+        <div className="post-wrapper">
           <Helmet>
             <title>{`${post.title} | ${config.siteTitle}`}</title>
           </Helmet>

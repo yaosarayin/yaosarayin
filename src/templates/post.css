@@ -3,3 +3,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.post-wrapper {
+  max-width: 100%
+}
