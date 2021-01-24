@@ -10,7 +10,7 @@ const config = {
   siteRssTitle: "Yao Yin RSS feed", // Title of the RSS feed
   // siteFBAppID: "1825356251115265", // FB Application ID for using app insights
   googleAnalyticsID: "UA-165902948-2", // GA tracking ID.
-  disqusShortname: "yaosarayin", // Disqus shortname.
+  disqusShortname: "yaosarayin-com", // Disqus shortname.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
   postsPerPage: 10, // Amount of posts displayed per listing page.
