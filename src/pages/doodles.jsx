@@ -4,7 +4,7 @@ import {graphql, useStaticQuery, Link} from "gatsby"
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
-import Layout, {Container} from "../components/Layout/Layout";
+import Layout, {Section} from "../components/Layout/Layout";
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
@@ -30,22 +30,22 @@ export const pageQuery = graphql`
   }
 `;
 
-const Blog = () => {
+const Doodles = () => {
     const postEdges = useStaticQuery(pageQuery).allMarkdownRemark.edges;
     return (
       <Layout>
-        <Container>
+        <Section>
         <h1>Blog</h1>
         <div className="posts-container">
           <Helmet title={config.siteTitle} />
           <SEO />
           <PostListing postEdges={postEdges} />
         </div>
-        </Container>
+        </Section>
       </Layout>
     );
 }
 
-export default Blog;
+export default Doodles;
 
 

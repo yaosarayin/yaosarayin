@@ -71,11 +71,8 @@ class Navbar extends React.Component {
             <MenuItem key="2" className="dropdown-content"><Link to="/past-research">Past Research</Link></MenuItem>
           </div>
         </MenuItem>
-        <MenuItem key="Blog">
-          <Link to="/blog">Blog</Link>
-        </MenuItem>
-        <MenuItem key="Art">
-          <Link to="/art">Art</Link>
+        <MenuItem key="Doodles">
+          <Link to="/doodles">Doodles</Link>
         </MenuItem>
         {/* <MenuItem key="WeChat">
           <a href="#" target="_blank" rel="noopener noreferrer">
