@@ -32,7 +32,7 @@ export default class PostTemplate extends React.Component {
           <SEO postPath={slug} postNode={postNode} postSEO />
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
             <h1>{post.title}</h1>
-            <img src={`http://localhost:8000/${ post.cover }?nf_resize=fit&h=300`} width={500}/>
+            <img src={`http://www.yaosarayin.com/${ post.cover }?nf_resize=fit&h=300`} width={500}/>
             <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
             <div className="post-meta" style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
               <PostTags tags={post.tags} />

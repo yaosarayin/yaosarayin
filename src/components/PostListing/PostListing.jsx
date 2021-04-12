@@ -94,7 +94,7 @@ export const PostListing = (props) => {
         postList.map(post => (
             <div className="item">
               <Link to={post.path} key={post.title}>
-                <img src={`http://localhost:8000/${ post.cover }?nf_resize=fit&h=300`}/>
+                <img src={`http://www.yaosarayin.com/${ post.cover }?nf_resize=fit&h=300`}/>
                 {/* <div class="top-left">{ post.title }</div> */}
               </Link>
             </div>
