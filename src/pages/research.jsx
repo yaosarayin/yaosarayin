@@ -12,7 +12,7 @@ const ResearchPage = () => {
         <Layout>
           <div className="home-container">
             <Helmet title={`Home | ${config.siteTitle}`} />
-            <h1>Research</h1>
+            <h1>page coming soon...</h1>
 
           </div>
         </Layout>

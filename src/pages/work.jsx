@@ -13,7 +13,7 @@ const WorkPage = () => {
           <Section>
           <div className="home-container">
             <Helmet title={`Home | ${config.siteTitle}`} />
-            <h1>My Work Experiences</h1>
+            <h1>page coming soon...</h1>
 
           </div>
           </Section>

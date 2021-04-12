@@ -35,7 +35,7 @@ const Doodles = () => {
     return (
       <Layout>
         <Section>
-        <h1>Blog</h1>
+        <h1>Doodles & Fun</h1>
         <div className="posts-container">
           <Helmet title={config.siteTitle} />
           <SEO />

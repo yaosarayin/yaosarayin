@@ -61,6 +61,9 @@ class Navbar extends React.Component {
         <MenuItem key="Home">
           <Link to="/">Home</Link>
         </MenuItem>
+        <MenuItem key="Doodles">
+          <Link to="/doodles">Art</Link>
+        </MenuItem>
         <MenuItem key="Work">
           <Link to="/work">Work</Link>
         </MenuItem>
@@ -70,9 +73,6 @@ class Navbar extends React.Component {
             <MenuItem key="1" className="dropdown-content"><Link to="/SLSNe">Superluminous Supernovae</Link></MenuItem>
             <MenuItem key="2" className="dropdown-content"><Link to="/past-research">Past Research</Link></MenuItem>
           </div>
-        </MenuItem>
-        <MenuItem key="Doodles">
-          <Link to="/doodles">Doodles</Link>
         </MenuItem>
         {/* <MenuItem key="WeChat">
           <a href="#" target="_blank" rel="noopener noreferrer">
