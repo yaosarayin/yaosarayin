@@ -8,9 +8,9 @@ media_folder: static/assets
 public_folder: assets
 
 collections:
-  - name: blog
+  - name: post
     label: "Post"
-    folder: "content/blog"
+    folder: "content/posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}.md"
     fields:
@@ -21,13 +21,3 @@ collections:
       - { label: "Category", name: "category", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - label: "Art"
-    name: "art"
-    folder: "content/art"
-    create: true
-    identifier_field: title
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Main Image", name: "image", widget: "image" }
-      - { label: "Description", name: "description", widget: "markdown" }
