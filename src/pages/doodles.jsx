@@ -35,11 +35,11 @@ const Doodles = () => {
     return (
       <Layout>
         <Section>
-        <h1>Doodles & Fun</h1>
         <div className="posts-container">
           <Helmet title={config.siteTitle} />
           <SEO />
           <PostListing postEdges={postEdges} />
+          <h3><a href="mailto:yaosarayin@gmail.com">Contact me</a> for more inquiries. Or find me on <a href="https://www.redbubble.com/people/yaosarayin/shop?asc=u">RedBubble</a>.</h3>
         </div>
         </Section>
       </Layout>
