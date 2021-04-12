@@ -3,7 +3,7 @@ title: "Illustration For Mike Bloomberg: The Good Philanthropist?"
 date: 2021-04-12T15:10:33.542Z
 cover: assets/img_0278.png
 slug: mike_bloomberg
-category: crimson
+category: The Crimson
 tags:
   - crimson
   - digital
