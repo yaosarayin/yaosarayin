@@ -16,3 +16,9 @@
 .share-count {
   text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+  .social-links {
+    flex-direction: column;
+  }
+}

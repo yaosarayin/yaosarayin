@@ -36,17 +36,43 @@ const Social = styled.div`
   display: flex;
   padding: 20px;  
   justify-content: center;
+  span {
+    font-size: 55px;
+  }
+  @media screen and (max-width: 500px) {
+    .fa-2x {
+      font-size: 1em;
+  }
+  .fa-github {
+    font-size: 36px;
+    padding-top: 0px;
+    width: 36px
+}
+.fa {
+  width: 36px;
+  height: 36px;
+  margin: 10px;
+}
+span {
+  padding-top: 0px;
+  font-size: 0px;
+}
+}
+      
+    
+  }
+  
 `
 export const Footer = () => {
   return (
       <Social>
-        <span style={{fontSize:"55px"}}>
-          <a href="https://www.github.com/yaosarayin" class="fa fa-github" target="_blank"></a>
+        <span>
+          <a href="https://www.github.com/yaosarayin" className="fa fa-github" target="_blank"></a>
         </span>
-        <a href="https://www.linkedin.com/in/yao-yin/" class="fa fa-2x fa-linkedin" target="_blank"></a>
-        <a href="https://www.facebook.com/profile.php?id=100011439385585" class="fa fa-facebook fa-2x" target="_blank"></a>
-        <a href="https://www.instagram.com/yaosarayin/?hl=en" class="fa fa-instagram fa-2x" target="_blank"></a>
-        <a href="mailto: yyin@college.harvard.edu" class="fa fa-2x fa-google"></a>
+        <a href="https://www.linkedin.com/in/yao-yin/" className="fa fa-2x fa-linkedin" target="_blank"></a>
+        <a href="https://www.facebook.com/profile.php?id=100011439385585" className="fa fa-facebook fa-2x" target="_blank"></a>
+        <a href="https://www.instagram.com/yaosarayin/?hl=en" className="fa fa-instagram fa-2x" target="_blank"></a>
+        <a href="mailto: yyin@college.harvard.edu" className="fa fa-2x fa-google"></a>
       </Social>
   )
 }

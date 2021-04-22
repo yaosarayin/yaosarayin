@@ -54,12 +54,23 @@ class Navbar extends React.Component {
       .dropdown:hover .dropbtn {
         background-color: #3e8e41;
       }
+      @media screen and (max-width: 500px) {
+
+      text-align: center;
+      margin-bottom: 0;
+      padding: 10px;
+      margin-right: 10px;
+      font-size: 12px;
+      }
     `;
 
     return (
       <Menu>
         <MenuItem key="Home">
           <Link to="/">Home</Link>
+        </MenuItem>
+        <MenuItem key="Doodles">
+          <Link to="/doodles">Art</Link>
         </MenuItem>
         <MenuItem key="Work">
           <Link to="/work">Work</Link>
@@ -71,9 +82,7 @@ class Navbar extends React.Component {
             <MenuItem key="2" className="dropdown-content"><Link to="/past-research">Past Research</Link></MenuItem>
           </div>
         </MenuItem>
-        <MenuItem key="Doodles">
-          <Link to="/doodles">Art</Link>
-        </MenuItem>
+
         {/* <MenuItem key="WeChat">
           <a href="#" target="_blank" rel="noopener noreferrer">
           </a>
